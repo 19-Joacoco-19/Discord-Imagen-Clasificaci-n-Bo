@@ -40,7 +40,7 @@ El usuario debe enviar una imagen junto al comando para que el bot la analice au
 Agrega aquí imágenes del funcionamiento del bot:
 
 ```md
-![Captura](https://github.com/19-Joacoco-19/Discord-Imagen-Clasificaci-n-Bo/blob/main/screenshot.png)
+![Captura](https://raw.githubusercontent.com/19-Joacoco-19/Discord-Imagen-Clasificaci-n-Bo/main/screenshot.png)
 ```
 
 ## Instalación
