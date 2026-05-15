@@ -1,23 +1,23 @@
-# Discord AI Image Classifier Bot
+# Bot de Discord con Clasificación de Imágenes usando IA
 
-## Description
+## Descripción
 
-This project is a Discord bot that uses Artificial Intelligence to classify images sent by users. The bot was developed with Python, Discord.py, TensorFlow, and Keras.
+Este proyecto consiste en un bot de Discord desarrollado con Python que utiliza Inteligencia Artificial para clasificar imágenes enviadas por los usuarios.
 
-Users can upload an image using a command, and the bot analyzes it with a trained image classification model. After the inference process, the bot responds with the detected object and the confidence level of the prediction.
+El bot usa un modelo entrenado con TensorFlow y Keras para analizar imágenes y detectar objetos automáticamente. Después del proceso de inferencia, el bot responde mostrando el objeto detectado y el nivel de confianza de la predicción.
 
-The project also includes error handling for invalid image formats and low-confidence predictions.
+Además, el proyecto incluye manejo de errores para formatos de imagen no válidos y predicciones con baja confianza.
 
-## Features
+## Características
 
-* Image classification using AI
-* Discord bot integration
-* TensorFlow/Keras trained model
-* Confidence score detection
-* Error handling system
-* Supports JPG and PNG images
+* Clasificación de imágenes mediante IA
+* Integración con Discord
+* Modelo entrenado con TensorFlow/Keras
+* Detección de nivel de confianza
+* Manejo de errores
+* Compatibilidad con imágenes JPG y PNG
 
-## Technologies Used
+## Tecnologías utilizadas
 
 * Python
 * Discord.py
@@ -25,35 +25,38 @@ The project also includes error handling for invalid image formats and low-confi
 * Keras
 * NumPy
 * Pillow
+* Requests
 
-## Example Command
+## Comando de ejemplo
 
 ```bash
 $check
 ```
 
-Upload an image together with the command and the bot will analyze it automatically.
+El usuario debe enviar una imagen junto al comando para que el bot la analice automáticamente.
 
-## Screenshots
+## Capturas de pantalla
 
-Add screenshots here:
+Agrega aquí imágenes del funcionamiento del bot:
 
 ```md
-![Bot Screenshot](images/screenshot.png)
+![Captura del Bot](screenshot.png)
 ```
 
-## Installation
+## Instalación
+
+Instalar dependencias:
 
 ```bash
 pip install tensorflow keras discord.py pillow numpy requests
 ```
 
-Run the bot with:
+Ejecutar el bot:
 
 ```bash
 python main.py
 ```
 
-## License
+## Licencia
 
-This project is licensed under the MIT License.
+Este proyecto está bajo la licencia MIT.
